@@ -2,12 +2,12 @@
 
 I'm an IT student who enjoys building things with code. I'm currently learning **C# / .NET** and taking my first steps into software development — one exercise, one commit at a time.
 
-![hungnqhdev's Stats](https://github-readme-stats.vercel.app/api?username=hungnqhdev&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+![nnqhdev's Stats](https://github-readme-stats.vercel.app/api?username=nnqhdev&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 
 ## 🚀 About Me
 
 - 🎓 I'm currently studying Information Technology.
-- 💻 I practice C# every week and push my exercises to [csharp-exercises](https://github.com/hungnqhdev/csharp-exercises).
+- 💻 I practice C# every week and push my exercises to [csharp-exercises](https://github.com/nnqhdev/csharp-exercises).
 - 🎯 My goal: become a **.NET Backend Intern**.
 
 ## Tech Stack
