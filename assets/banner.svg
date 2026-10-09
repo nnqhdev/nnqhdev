@@ -21,7 +21,7 @@
     <!-- 01 -->
     <text class="mono" x="952" y="38" text-anchor="end" font-size="14" letter-spacing="2" fill="#858585">01</text>
     <text class="sans" x="48" y="98" font-size="92" font-weight="800" letter-spacing="-2" fill="#ffffff" textLength="236" lengthAdjust="spacingAndGlyphs">Hung</text>
-    <rect class="blink" x="302" y="32" width="20" height="66" fill="#ffffff"/>
+    <rect class="blink" x="300" y="94" width="52" height="11" fill="#ffffff"/>
 
     <!-- 02 -->
     <text class="mono" x="952" y="168" text-anchor="end" font-size="14" letter-spacing="2" fill="#0b0b0b" fill-opacity=".6">02</text>
