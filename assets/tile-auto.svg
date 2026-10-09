@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-label="Automation that runs itself: workflows, APIs and cloud deployments">
+  <title>Automation</title>
+  <defs>
+    <clipPath id="r"><rect width="1000" height="500" rx="28"/></clipPath>
+    <linearGradient id="flow" gradientUnits="userSpaceOnUse" x1="215" y1="0" x2="785" y2="0">
+      <stop offset="0" stop-color="#0a84ff"/>
+      <stop offset=".5" stop-color="#bf5af2"/>
+      <stop offset="1" stop-color="#ff375f"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".1"/>
+    </filter>
+  </defs>
+  <style>
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+    .flow { stroke-dasharray: 7 10; animation: dash 0.9s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -17; } }
+    .ok { animation: ok 4s ease-in-out infinite; }
+    @keyframes ok { 0%, 100% { opacity: .35; } 20%, 45% { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#r)">
+    <rect width="1000" height="500" fill="#f5f5f7"/>
+
+    <text class="t" x="500" y="108" text-anchor="middle" font-size="54" font-weight="600" letter-spacing="-1.2" fill="#1d1d1f">Automation that runs itself.</text>
+    <text class="t" x="500" y="156" text-anchor="middle" font-size="26" fill="#6e6e73">Workflows, APIs and cloud deployments.</text>
+
+    <!-- connectors -->
+    <g stroke="url(#flow)" stroke-width="3" stroke-linecap="round" fill="none">
+      <line class="flow" x1="217" y1="326" x2="283" y2="326"/>
+      <line class="flow" x1="467" y1="326" x2="533" y2="326"/>
+      <line class="flow" x1="717" y1="326" x2="783" y2="326"/>
+    </g>
+
+    <!-- nodes -->
+    <g filter="url(#sh)">
+      <rect x="35"  y="284" width="180" height="84" rx="24" fill="#ffffff"/>
+      <rect x="285" y="284" width="180" height="84" rx="24" fill="#ffffff"/>
+      <rect x="535" y="284" width="180" height="84" rx="24" fill="#ffffff"/>
+      <rect x="785" y="284" width="180" height="84" rx="24" fill="#ffffff"/>
+    </g>
+
+    <g class="t" font-size="24" font-weight="600" fill="#1d1d1f">
+      <text x="80"  y="334">Trigger</text>
+      <text x="330" y="334">LLM</text>
+      <text x="580" y="334">API</text>
+      <text x="830" y="334">Deploy</text>
+    </g>
+
+    <circle class="ok" cx="60"  cy="326" r="7" fill="#30d158" style="animation-delay:0s"/>
+    <circle class="ok" cx="310" cy="326" r="7" fill="#30d158" style="animation-delay:.6s"/>
+    <circle class="ok" cx="560" cy="326" r="7" fill="#30d158" style="animation-delay:1.2s"/>
+    <circle class="ok" cx="810" cy="326" r="7" fill="#30d158" style="animation-delay:1.8s"/>
+
+    <g class="m" font-size="14" letter-spacing="1" fill="#86868b" text-anchor="middle">
+      <text x="125" y="404">webhook / cron</text>
+      <text x="375" y="404">reasoning</text>
+      <text x="625" y="404">integrations</text>
+      <text x="875" y="404">cloud</text>
+    </g>
+  </g>
+</svg>

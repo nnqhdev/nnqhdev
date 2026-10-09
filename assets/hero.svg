@@ -1,198 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="830" viewBox="0 0 1000 830" role="img" aria-label="Hung - Full-Stack &amp; AI Automation Developer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="580" viewBox="0 0 1000 580" role="img" aria-label="Hung - Full-Stack &amp; AI Automation Developer">
   <title>Hung - Full-Stack &amp; AI Automation Developer</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f4f4f4"/>
-      <stop offset="0.68" stop-color="#808080"/>
-      <stop offset="1" stop-color="#0d1117"/>
+    <clipPath id="r"><rect width="1000" height="580" rx="28"/></clipPath>
+    <filter id="blur" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="370" y1="0" x2="630" y2="0">
+      <stop offset="0" stop-color="#6ab0ff"/>
+      <stop offset=".5" stop-color="#b784ff"/>
+      <stop offset="1" stop-color="#ff7a9c"/>
     </linearGradient>
-    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#000"/><stop offset=".09" stop-color="#fff"/>
-      <stop offset=".91" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
-    </linearGradient>
-    <mask id="edge" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="830"><rect width="1000" height="830" fill="url(#fade)"/></mask>
-    <clipPath id="round"><rect width="1000" height="830" rx="18"/></clipPath>
   </defs>
   <style>
-    .sans { font-family: 'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; }
-    .mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
-    .blink { animation: blink 1.1s steps(1) infinite; }
-    .pulse { animation: pulse 2s ease-in-out infinite; }
-    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .2; } }
-    .mq { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 22px; font-weight: 600; fill: #fff; }
-    .m1 { animation: m1 38s linear infinite; }
-    @keyframes m1 { from { transform: translateX(0px); } to { transform: translateX(-1510.4px); } }
-    .m2 { animation: m2 46s linear infinite; }
-    @keyframes m2 { from { transform: translateX(-1797.2px); } to { transform: translateX(0px); } }
-    .m3 { animation: m3 32s linear infinite; }
-    @keyframes m3 { from { transform: translateX(0px); } to { transform: translateX(-1094.8px); } }
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .d1 { animation: d1 13s ease-in-out infinite alternate; }
+    .d2 { animation: d2 17s ease-in-out infinite alternate; }
+    .d3 { animation: d3 15s ease-in-out infinite alternate; }
+    .d4 { animation: d4 19s ease-in-out infinite alternate; }
+    @keyframes d1 { from { transform: translateX(-60px); } to { transform: translateX(70px); } }
+    @keyframes d2 { from { transform: translateX(60px); }  to { transform: translateX(-80px); } }
+    @keyframes d3 { from { transform: translateX(-70px); } to { transform: translateX(50px); } }
+    @keyframes d4 { from { transform: translateX(40px); }  to { transform: translateX(-60px); } }
+    .dot { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
   </style>
 
-  <g clip-path="url(#round)">
-    <rect width="1000" height="830" fill="url(#bg)"/>
+  <g clip-path="url(#r)">
+    <rect width="1000" height="580" fill="#000"/>
 
-    <!-- top bar (on the light end: dark ink) -->
-    <text class="mono" x="56" y="58" font-size="14" letter-spacing="2" fill="#0d0d0d" fill-opacity=".55">NNQHDEV</text>
-    <circle class="pulse" cx="738" cy="53" r="6" fill="#0d0d0d"/>
-    <text class="mono" x="754" y="58" font-size="14" letter-spacing="2" fill="#0d0d0d" fill-opacity=".7" textLength="190" lengthAdjust="spacing">OPEN TO FREELANCE</text>
-
-    <!-- name -->
-    <text class="sans" x="56" y="196" font-size="150" font-weight="800" letter-spacing="-4" fill="#0d0d0d" textLength="340" lengthAdjust="spacingAndGlyphs">Hung</text>
-    <rect class="blink" x="416" y="184" width="64" height="13" fill="#0d0d0d"/>
-    <text class="sans" x="56" y="268" font-size="40" font-weight="700" fill="#0d0d0d">Full-Stack &amp; AI Automation Developer</text>
-    <text class="sans" x="56" y="316" font-size="24" font-weight="500" fill="#0d0d0d" fill-opacity=".7">Ho Chi Minh City, Vietnam</text>
-
-    <!-- what I build (still on the light half: dark ink) -->
-    <line x1="56" y1="366" x2="944" y2="366" stroke="#0d0d0d" stroke-opacity=".22"/>
-    <text class="mono" x="56" y="398" font-size="13" letter-spacing="3" fill="#0d0d0d" fill-opacity=".6">WHAT I BUILD</text>
-    <rect x="56" y="418" width="24" height="3" fill="#0d0d0d"/>
-    <text class="sans" x="56" y="458" font-size="26" font-weight="700" fill="#0d0d0d">Web &amp; mobile apps</text>
-    <text class="sans" x="56" y="494" font-size="19" fill="#0d0d0d" fill-opacity=".88">Modern, scalable apps</text>
-    <text class="sans" x="56" y="522" font-size="19" fill="#0d0d0d" fill-opacity=".88">built for production.</text>
-    <rect x="384" y="418" width="24" height="3" fill="#0d0d0d"/>
-    <text class="sans" x="384" y="458" font-size="26" font-weight="700" fill="#0d0d0d">AI assistants</text>
-    <text class="sans" x="384" y="494" font-size="19" fill="#0d0d0d" fill-opacity=".88">Chatbots &amp; LLM apps</text>
-    <text class="sans" x="384" y="522" font-size="19" fill="#0d0d0d" fill-opacity=".88">(RAG, agents), 24/7.</text>
-    <rect x="712" y="418" width="24" height="3" fill="#0d0d0d"/>
-    <text class="sans" x="712" y="458" font-size="26" font-weight="700" fill="#0d0d0d">Automation</text>
-    <text class="sans" x="712" y="494" font-size="19" fill="#0d0d0d" fill-opacity=".88">Workflows, APIs and</text>
-    <text class="sans" x="712" y="522" font-size="19" fill="#0d0d0d" fill-opacity=".88">cloud deployments.</text>
-
-    <!-- stack (on the dark half: white ink) -->
-    <line x1="56" y1="572" x2="944" y2="572" stroke="#fff" stroke-opacity=".22"/>
-    <text class="mono" x="56" y="608" font-size="13" letter-spacing="3" fill="#fff" fill-opacity=".65">STACK</text>
-    <g mask="url(#edge)">
-      <g class="m1" opacity="1">
-        <text class="mq" x="0" y="664" textLength="132" lengthAdjust="spacing">TypeScript</text>
-        <circle cx="160" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="188" y="664" textLength="132" lengthAdjust="spacing">JavaScript</text>
-        <circle cx="348" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="376" y="664" textLength="79.2" lengthAdjust="spacing">Python</text>
-        <circle cx="483.2" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="511.2" y="664" textLength="39.6" lengthAdjust="spacing">PHP</text>
-        <circle cx="578.8" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="606.8" y="664" textLength="52.8" lengthAdjust="spacing">Java</text>
-        <circle cx="687.6" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="715.6" y="664" textLength="66" lengthAdjust="spacing">React</text>
-        <circle cx="809.6" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="837.6" y="664" textLength="92.4" lengthAdjust="spacing">Next.js</text>
-        <circle cx="958" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="986" y="664" textLength="39.6" lengthAdjust="spacing">Vue</text>
-        <circle cx="1053.6" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1081.6" y="664" textLength="158.4" lengthAdjust="spacing">React Native</text>
-        <circle cx="1268" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1296" y="664" textLength="158.4" lengthAdjust="spacing">Tailwind CSS</text>
-        <circle cx="1482.4" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1510.4" y="664" textLength="132" lengthAdjust="spacing">TypeScript</text>
-        <circle cx="1670.4" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1698.4" y="664" textLength="132" lengthAdjust="spacing">JavaScript</text>
-        <circle cx="1858.4" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1886.4" y="664" textLength="79.2" lengthAdjust="spacing">Python</text>
-        <circle cx="1993.6" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2021.6" y="664" textLength="39.6" lengthAdjust="spacing">PHP</text>
-        <circle cx="2089.2" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2117.2" y="664" textLength="52.8" lengthAdjust="spacing">Java</text>
-        <circle cx="2198" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2226" y="664" textLength="66" lengthAdjust="spacing">React</text>
-        <circle cx="2320" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2348" y="664" textLength="92.4" lengthAdjust="spacing">Next.js</text>
-        <circle cx="2468.4" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2496.4" y="664" textLength="39.6" lengthAdjust="spacing">Vue</text>
-        <circle cx="2564" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2592" y="664" textLength="158.4" lengthAdjust="spacing">React Native</text>
-        <circle cx="2778.4" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2806.4" y="664" textLength="158.4" lengthAdjust="spacing">Tailwind CSS</text>
-        <circle cx="2992.8" cy="656" r="2.5" fill="#fff" fill-opacity=".5"/>
-      </g>
-      <g class="m2" opacity="0.78">
-        <text class="mq" x="0" y="720" textLength="92.4" lengthAdjust="spacing">Node.js</text>
-        <circle cx="120.4" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="148.4" y="720" textLength="79.2" lengthAdjust="spacing">NestJS</text>
-        <circle cx="255.6" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="283.6" y="720" textLength="92.4" lengthAdjust="spacing">Express</text>
-        <circle cx="404" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="432" y="720" textLength="92.4" lengthAdjust="spacing">FastAPI</text>
-        <circle cx="552.4" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="580.4" y="720" textLength="92.4" lengthAdjust="spacing">Laravel</text>
-        <circle cx="700.8" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="728.8" y="720" textLength="79.2" lengthAdjust="spacing">Spring</text>
-        <circle cx="836" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="864" y="720" textLength="132" lengthAdjust="spacing">PostgreSQL</text>
-        <circle cx="1024" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1052" y="720" textLength="66" lengthAdjust="spacing">MySQL</text>
-        <circle cx="1146" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1174" y="720" textLength="66" lengthAdjust="spacing">Redis</text>
-        <circle cx="1268" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1296" y="720" textLength="92.4" lengthAdjust="spacing">GraphQL</text>
-        <circle cx="1416.4" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1444.4" y="720" textLength="79.2" lengthAdjust="spacing">Docker</text>
-        <circle cx="1551.6" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1579.6" y="720" textLength="39.6" lengthAdjust="spacing">Git</text>
-        <circle cx="1647.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1675.2" y="720" textLength="66" lengthAdjust="spacing">Linux</text>
-        <circle cx="1769.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1797.2" y="720" textLength="92.4" lengthAdjust="spacing">Node.js</text>
-        <circle cx="1917.6" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1945.6" y="720" textLength="79.2" lengthAdjust="spacing">NestJS</text>
-        <circle cx="2052.8" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2080.8" y="720" textLength="92.4" lengthAdjust="spacing">Express</text>
-        <circle cx="2201.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2229.2" y="720" textLength="92.4" lengthAdjust="spacing">FastAPI</text>
-        <circle cx="2349.6" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2377.6" y="720" textLength="92.4" lengthAdjust="spacing">Laravel</text>
-        <circle cx="2498" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2526" y="720" textLength="79.2" lengthAdjust="spacing">Spring</text>
-        <circle cx="2633.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2661.2" y="720" textLength="132" lengthAdjust="spacing">PostgreSQL</text>
-        <circle cx="2821.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2849.2" y="720" textLength="66" lengthAdjust="spacing">MySQL</text>
-        <circle cx="2943.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2971.2" y="720" textLength="66" lengthAdjust="spacing">Redis</text>
-        <circle cx="3065.2" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="3093.2" y="720" textLength="92.4" lengthAdjust="spacing">GraphQL</text>
-        <circle cx="3213.6" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="3241.6" y="720" textLength="79.2" lengthAdjust="spacing">Docker</text>
-        <circle cx="3348.8" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="3376.8" y="720" textLength="39.6" lengthAdjust="spacing">Git</text>
-        <circle cx="3444.4" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="3472.4" y="720" textLength="66" lengthAdjust="spacing">Linux</text>
-        <circle cx="3566.4" cy="712" r="2.5" fill="#fff" fill-opacity=".5"/>
-      </g>
-      <g class="m3" opacity="0.56">
-        <text class="mq" x="0" y="776" textLength="79.2" lengthAdjust="spacing">OpenAI</text>
-        <circle cx="107.2" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="135.2" y="776" textLength="79.2" lengthAdjust="spacing">Gemini</text>
-        <circle cx="242.4" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="270.4" y="776" textLength="79.2" lengthAdjust="spacing">Claude</text>
-        <circle cx="377.6" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="405.6" y="776" textLength="118.8" lengthAdjust="spacing">LangChain</text>
-        <circle cx="552.4" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="580.4" y="776" textLength="39.6" lengthAdjust="spacing">n8n</text>
-        <circle cx="648" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="676" y="776" textLength="39.6" lengthAdjust="spacing">RAG</text>
-        <circle cx="743.6" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="771.6" y="776" textLength="79.2" lengthAdjust="spacing">Agents</text>
-        <circle cx="878.8" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="906.8" y="776" textLength="132" lengthAdjust="spacing">Automation</text>
-        <circle cx="1066.8" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1094.8" y="776" textLength="79.2" lengthAdjust="spacing">OpenAI</text>
-        <circle cx="1202" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1230" y="776" textLength="79.2" lengthAdjust="spacing">Gemini</text>
-        <circle cx="1337.2" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1365.2" y="776" textLength="79.2" lengthAdjust="spacing">Claude</text>
-        <circle cx="1472.4" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1500.4" y="776" textLength="118.8" lengthAdjust="spacing">LangChain</text>
-        <circle cx="1647.2" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1675.2" y="776" textLength="39.6" lengthAdjust="spacing">n8n</text>
-        <circle cx="1742.8" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1770.8" y="776" textLength="39.6" lengthAdjust="spacing">RAG</text>
-        <circle cx="1838.4" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="1866.4" y="776" textLength="79.2" lengthAdjust="spacing">Agents</text>
-        <circle cx="1973.6" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-        <text class="mq" x="2001.6" y="776" textLength="132" lengthAdjust="spacing">Automation</text>
-        <circle cx="2161.6" cy="768" r="2.5" fill="#fff" fill-opacity=".5"/>
-      </g>
+    <!-- aurora glow -->
+    <g filter="url(#blur)" opacity=".92">
+      <ellipse class="d1" cx="220" cy="585" rx="230" ry="100" fill="#0a84ff"/>
+      <ellipse class="d2" cx="470" cy="600" rx="270" ry="110" fill="#bf5af2"/>
+      <ellipse class="d3" cx="730" cy="585" rx="240" ry="100" fill="#ff375f"/>
+      <ellipse class="d4" cx="920" cy="600" rx="190" ry="90"  fill="#ff9f0a"/>
     </g>
+
+    <!-- copy -->
+    <text class="t" x="500" y="168" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-3" fill="url(#name)">Hung</text>
+    <text class="t" x="500" y="232" text-anchor="middle" font-size="36" font-weight="500" fill="#f5f5f7">Full-Stack &amp; AI Automation Developer.</text>
+    <circle class="dot" cx="355" cy="272" r="5" fill="#30d158"/>
+    <text class="t" x="500" y="279" text-anchor="middle" font-size="21" fill="#86868b" dx="10">Ho Chi Minh City, Vietnam<tspan dx="14" fill="#48484a">|</tspan><tspan dx="14">Open to freelance work</tspan></text>
   </g>
 </svg>
