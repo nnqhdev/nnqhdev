@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140" role="img" aria-label="Tech stack: TypeScript, React, Next.js, Node.js, NestJS, FastAPI, PostgreSQL, Docker, OpenAI, Claude, LangChain and more">
+  <title>Tech stack</title>
+  <defs>
+    <clipPath id="r"><rect width="1000" height="140" rx="24"/></clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000"/><stop offset=".08" stop-color="#fff"/>
+      <stop offset=".92" stop-color="#fff"/><stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="edge" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="140"><rect width="1000" height="140" fill="url(#fade)"/></mask>
+  </defs>
+  <style>
+    .c { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI Variable Text', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 21px; font-weight: 600; fill: #f5f5f7; }
+    .m1 { animation: m1 70s linear infinite; }
+    @keyframes m1 { from { transform: translateX(0px); } to { transform: translateX(-2438.4px); } }
+    .m2 { animation: m2 66s linear infinite; }
+    @keyframes m2 { from { transform: translateX(-2118px); } to { transform: translateX(0px); } }
+  </style>
+
+  <g clip-path="url(#r)">
+    <rect width="1000" height="140" fill="#000"/>
+    <g mask="url(#edge)">
+      <g class="m1">
+        <rect x="0" y="16" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="21" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="40" y="47" textLength="112" lengthAdjust="spacing">TypeScript</text>
+        <rect x="186" y="16" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="207" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="226" y="47" textLength="112" lengthAdjust="spacing">JavaScript</text>
+        <rect x="372" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="393" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="412" y="47" textLength="67.2" lengthAdjust="spacing">Python</text>
+        <rect x="513.2" y="16" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="534.2" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="553.2" y="47" textLength="33.6" lengthAdjust="spacing">PHP</text>
+        <rect x="620.8" y="16" width="106.8" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="641.8" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="660.8" y="47" textLength="44.8" lengthAdjust="spacing">Java</text>
+        <rect x="739.6" y="16" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="760.6" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="779.6" y="47" textLength="56" lengthAdjust="spacing">React</text>
+        <rect x="869.6" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="890.6" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="909.6" y="47" textLength="78.4" lengthAdjust="spacing">Next.js</text>
+        <rect x="1022" y="16" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1043" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1062" y="47" textLength="33.6" lengthAdjust="spacing">Vue</text>
+        <rect x="1129.6" y="16" width="196.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1150.6" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1169.6" y="47" textLength="134.4" lengthAdjust="spacing">React Native</text>
+        <rect x="1338" y="16" width="196.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1359" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1378" y="47" textLength="134.4" lengthAdjust="spacing">Tailwind CSS</text>
+        <rect x="1546.4" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1567.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1586.4" y="47" textLength="78.4" lengthAdjust="spacing">Node.js</text>
+        <rect x="1698.8" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1719.8" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1738.8" y="47" textLength="67.2" lengthAdjust="spacing">NestJS</text>
+        <rect x="1840" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1861" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="1880" y="47" textLength="78.4" lengthAdjust="spacing">Express</text>
+        <rect x="1992.4" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2013.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2032.4" y="47" textLength="78.4" lengthAdjust="spacing">FastAPI</text>
+        <rect x="2144.8" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2165.8" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2184.8" y="47" textLength="78.4" lengthAdjust="spacing">Laravel</text>
+        <rect x="2297.2" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2318.2" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2337.2" y="47" textLength="67.2" lengthAdjust="spacing">Spring</text>
+        <rect x="2438.4" y="16" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2459.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2478.4" y="47" textLength="112" lengthAdjust="spacing">TypeScript</text>
+        <rect x="2624.4" y="16" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2645.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2664.4" y="47" textLength="112" lengthAdjust="spacing">JavaScript</text>
+        <rect x="2810.4" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2831.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2850.4" y="47" textLength="67.2" lengthAdjust="spacing">Python</text>
+        <rect x="2951.6" y="16" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2972.6" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="2991.6" y="47" textLength="33.6" lengthAdjust="spacing">PHP</text>
+        <rect x="3059.2" y="16" width="106.8" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3080.2" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3099.2" y="47" textLength="44.8" lengthAdjust="spacing">Java</text>
+        <rect x="3178" y="16" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3199" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3218" y="47" textLength="56" lengthAdjust="spacing">React</text>
+        <rect x="3308" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3329" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3348" y="47" textLength="78.4" lengthAdjust="spacing">Next.js</text>
+        <rect x="3460.4" y="16" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3481.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3500.4" y="47" textLength="33.6" lengthAdjust="spacing">Vue</text>
+        <rect x="3568" y="16" width="196.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3589" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3608" y="47" textLength="134.4" lengthAdjust="spacing">React Native</text>
+        <rect x="3776.4" y="16" width="196.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3797.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="3816.4" y="47" textLength="134.4" lengthAdjust="spacing">Tailwind CSS</text>
+        <rect x="3984.8" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4005.8" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4024.8" y="47" textLength="78.4" lengthAdjust="spacing">Node.js</text>
+        <rect x="4137.2" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4158.2" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4177.2" y="47" textLength="67.2" lengthAdjust="spacing">NestJS</text>
+        <rect x="4278.4" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4299.4" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4318.4" y="47" textLength="78.4" lengthAdjust="spacing">Express</text>
+        <rect x="4430.8" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4451.8" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4470.8" y="47" textLength="78.4" lengthAdjust="spacing">FastAPI</text>
+        <rect x="4583.2" y="16" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4604.2" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4623.2" y="47" textLength="78.4" lengthAdjust="spacing">Laravel</text>
+        <rect x="4735.6" y="16" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4756.6" cy="40" r="5" fill="#0a84ff"/>
+        <text class="c" x="4775.6" y="47" textLength="67.2" lengthAdjust="spacing">Spring</text>
+      </g>
+      <g class="m2">
+        <rect x="0" y="76" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="21" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="40" y="107" textLength="112" lengthAdjust="spacing">PostgreSQL</text>
+        <rect x="186" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="207" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="226" y="107" textLength="56" lengthAdjust="spacing">MySQL</text>
+        <rect x="316" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="337" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="356" y="107" textLength="56" lengthAdjust="spacing">Redis</text>
+        <rect x="446" y="76" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="467" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="486" y="107" textLength="78.4" lengthAdjust="spacing">GraphQL</text>
+        <rect x="598.4" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="619.4" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="638.4" y="107" textLength="67.2" lengthAdjust="spacing">Docker</text>
+        <rect x="739.6" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="760.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="779.6" y="107" textLength="33.6" lengthAdjust="spacing">Git</text>
+        <rect x="847.2" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="868.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="887.2" y="107" textLength="56" lengthAdjust="spacing">Linux</text>
+        <rect x="977.2" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="998.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1017.2" y="107" textLength="67.2" lengthAdjust="spacing">OpenAI</text>
+        <rect x="1118.4" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1139.4" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1158.4" y="107" textLength="67.2" lengthAdjust="spacing">Gemini</text>
+        <rect x="1259.6" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1280.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1299.6" y="107" textLength="67.2" lengthAdjust="spacing">Claude</text>
+        <rect x="1400.8" y="76" width="162.8" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1421.8" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1440.8" y="107" textLength="100.8" lengthAdjust="spacing">LangChain</text>
+        <rect x="1575.6" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1596.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1615.6" y="107" textLength="33.6" lengthAdjust="spacing">n8n</text>
+        <rect x="1683.2" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1704.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1723.2" y="107" textLength="33.6" lengthAdjust="spacing">RAG</text>
+        <rect x="1790.8" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1811.8" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1830.8" y="107" textLength="67.2" lengthAdjust="spacing">Agents</text>
+        <rect x="1932" y="76" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="1953" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="1972" y="107" textLength="112" lengthAdjust="spacing">Automation</text>
+        <rect x="2118" y="76" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2139" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2158" y="107" textLength="112" lengthAdjust="spacing">PostgreSQL</text>
+        <rect x="2304" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2325" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2344" y="107" textLength="56" lengthAdjust="spacing">MySQL</text>
+        <rect x="2434" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2455" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2474" y="107" textLength="56" lengthAdjust="spacing">Redis</text>
+        <rect x="2564" y="76" width="140.4" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2585" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2604" y="107" textLength="78.4" lengthAdjust="spacing">GraphQL</text>
+        <rect x="2716.4" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2737.4" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2756.4" y="107" textLength="67.2" lengthAdjust="spacing">Docker</text>
+        <rect x="2857.6" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2878.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="2897.6" y="107" textLength="33.6" lengthAdjust="spacing">Git</text>
+        <rect x="2965.2" y="76" width="118" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="2986.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3005.2" y="107" textLength="56" lengthAdjust="spacing">Linux</text>
+        <rect x="3095.2" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3116.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3135.2" y="107" textLength="67.2" lengthAdjust="spacing">OpenAI</text>
+        <rect x="3236.4" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3257.4" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3276.4" y="107" textLength="67.2" lengthAdjust="spacing">Gemini</text>
+        <rect x="3377.6" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3398.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3417.6" y="107" textLength="67.2" lengthAdjust="spacing">Claude</text>
+        <rect x="3518.8" y="76" width="162.8" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3539.8" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3558.8" y="107" textLength="100.8" lengthAdjust="spacing">LangChain</text>
+        <rect x="3693.6" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3714.6" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3733.6" y="107" textLength="33.6" lengthAdjust="spacing">n8n</text>
+        <rect x="3801.2" y="76" width="95.6" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3822.2" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3841.2" y="107" textLength="33.6" lengthAdjust="spacing">RAG</text>
+        <rect x="3908.8" y="76" width="129.2" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="3929.8" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="3948.8" y="107" textLength="67.2" lengthAdjust="spacing">Agents</text>
+        <rect x="4050" y="76" width="174" height="48" rx="24" fill="#1d1d1f" stroke="#2c2c2e"/>
+        <circle cx="4071" cy="100" r="5" fill="#bf5af2"/>
+        <text class="c" x="4090" y="107" textLength="112" lengthAdjust="spacing">Automation</text>
+      </g>
+    </g>
+  </g>
+</svg>

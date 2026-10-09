@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="236" viewBox="0 0 330 236" role="img" aria-label="Illustration of an AI assistant chat">
+  <title>AI assistant illustration</title>
+  <defs>
+    <clipPath id="r"><rect width="330" height="236" rx="24"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9f2fc"/>
+      <stop offset="1" stop-color="#c9ddf3"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-30%" width="140%" height="170%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0a2a55" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <style>
+    .t { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    /* default state = full conversation; it clears and rebuilds at the end of each loop */
+    .b1 { animation: b1 12s ease-out infinite; }
+    .b2 { animation: b2 12s ease-out infinite; }
+    .b3 { animation: b3 12s ease-out infinite; }
+    @keyframes b1 { 0%, 80% { opacity: 1; transform: none; } 83%, 86% { opacity: 0; transform: translateY(12px); } 91%, 100% { opacity: 1; transform: none; } }
+    @keyframes b2 { 0%, 80% { opacity: 1; transform: none; } 83%, 90% { opacity: 0; transform: translateY(12px); } 95%, 100% { opacity: 1; transform: none; } }
+    @keyframes b3 { 0%, 80% { opacity: 1; transform: none; } 83%, 95% { opacity: 0; transform: translateY(12px); } 99%, 100% { opacity: 1; transform: none; } }
+    .dot { animation: bn 1.2s ease-in-out infinite; }
+    @keyframes bn { 0%, 60%, 100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-6px); opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#r)">
+    <rect width="330" height="236" fill="url(#bg)"/>
+
+    <g transform="translate(1 -118) scale(.66)">
+      <g class="b1" filter="url(#sh)">
+        <rect x="166" y="206" width="294" height="56" rx="28" fill="#0a84ff"/>
+        <text class="t" x="313" y="240" text-anchor="middle" font-size="19" font-weight="500" fill="#ffffff">Summarize today's tickets</text>
+      </g>
+      <g class="b2" filter="url(#sh)">
+        <rect x="36" y="286" width="322" height="106" rx="28" fill="#ffffff"/>
+        <text class="t" x="62" y="328" font-size="20" font-weight="600" fill="#1d1d1f">12 tickets, 3 urgent.</text>
+        <text class="t" x="62" y="362" font-size="19" fill="#6e6e73">Replies drafted for all.</text>
+      </g>
+      <g class="b3" filter="url(#sh)">
+        <rect x="36" y="414" width="92" height="48" rx="24" fill="#ffffff"/>
+        <circle class="dot" cx="64"  cy="438" r="5" fill="#86868b"/>
+        <circle class="dot" cx="82"  cy="438" r="5" fill="#86868b" style="animation-delay:.15s"/>
+        <circle class="dot" cx="100" cy="438" r="5" fill="#86868b" style="animation-delay:.3s"/>
+      </g>
+    </g>
+  </g>
+</svg>
