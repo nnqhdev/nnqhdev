@@ -1,36 +1,39 @@
 <div align="center">
 
-<br>
-
-# Hung
-
-**Full-Stack & AI Automation Developer**
-
-Ho Chi Minh City, Vietnam &nbsp;·&nbsp; Open to freelance work
+<img src="assets/banner.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
 
 <br>
 
-[GitHub](https://github.com/nnqhdev) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/nnqhdev/) &nbsp;·&nbsp; [YouTube](https://www.youtube.com/@nnqhdev) &nbsp;·&nbsp; [Facebook](https://www.facebook.com/nnqhdev) &nbsp;·&nbsp; [Email](mailto:hung264656@gmail.com)
+<a href="https://github.com/nnqhdev"><img src="https://img.shields.io/badge/GITHUB-0b0b0b?style=for-the-badge" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/nnqhdev/"><img src="https://img.shields.io/badge/LINKEDIN-6e6e6e?style=for-the-badge" alt="LinkedIn"></a>
+<a href="https://www.youtube.com/@nnqhdev"><img src="https://img.shields.io/badge/YOUTUBE-f2f2f2?style=for-the-badge" alt="YouTube"></a>
+<a href="https://www.facebook.com/nnqhdev"><img src="https://img.shields.io/badge/FACEBOOK-0b0b0b?style=for-the-badge" alt="Facebook"></a>
+<a href="mailto:hung264656@gmail.com"><img src="https://img.shields.io/badge/EMAIL-6e6e6e?style=for-the-badge" alt="Email"></a>
 
 <br>
+<br>
 
-</div>
-
-I build web apps, AI assistants and automation that help teams move faster.
+I build web apps, AI assistants and automation that help teams move faster.<br>
 Turning ideas into practical, production-ready software.
 
-Bachelor of Engineering in Data Engineering.
+<sub>Bachelor of Engineering in Data Engineering</sub>
 
-## What I build
+<br>
 
-**Web & mobile apps** — modern, scalable and production-ready.<br>
-**AI assistants** — chatbots and LLM apps (RAG, agents) that run 24/7.<br>
-**Automation** — workflows, APIs and cloud deployments.
+<img src="assets/build.svg" alt="What I build: web and mobile apps, AI assistants, automation" width="100%">
 
-## Stack
+<br>
+<br>
 
-**Languages** &nbsp; TypeScript · JavaScript · Python · PHP · Java<br>
-**Frontend** &nbsp; React · Next.js · Vue · React Native · Tailwind CSS<br>
-**Backend** &nbsp; Node.js · NestJS · Express · FastAPI · Laravel · Spring<br>
-**Data & tools** &nbsp; PostgreSQL · MySQL · Redis · GraphQL · Docker · Git · Linux<br>
-**AI & automation** &nbsp; OpenAI · Gemini · Claude · LangChain · n8n
+<img src="assets/stack.svg" alt="Tech stack" width="100%">
+
+<br>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nnqhdev/nnqhdev/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nnqhdev/nnqhdev/output/snake.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/nnqhdev/nnqhdev/output/snake.svg" width="100%">
+</picture>
+
+</div>

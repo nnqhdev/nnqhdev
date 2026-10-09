@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="What I build: web and mobile apps, AI assistants, automation">
+  <title>What I build</title>
+  <defs>
+    <clipPath id="round"><rect width="1000" height="250" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; }
+  </style>
+
+  <g clip-path="url(#round)">
+    <!-- three equal columns: black / gray / white -->
+    <rect x="0"     width="334" height="250" fill="#0b0b0b"/>
+    <rect x="334"   width="333" height="250" fill="#858585"/>
+    <rect x="667"   width="333" height="250" fill="#f2f2f2"/>
+
+    <!-- 01 -->
+    <text class="mono" x="32" y="48" font-size="14" letter-spacing="2" fill="#ffffff" fill-opacity=".5">01</text>
+    <text class="sans" x="32" y="118" font-size="28" font-weight="700" fill="#ffffff">Web &amp; mobile apps</text>
+    <text class="sans" x="32" y="162" font-size="21" fill="#ffffff" fill-opacity=".72">Modern, scalable apps</text>
+    <text class="sans" x="32" y="192" font-size="21" fill="#ffffff" fill-opacity=".72">built for production.</text>
+
+    <!-- 02 -->
+    <text class="mono" x="366" y="48" font-size="14" letter-spacing="2" fill="#0b0b0b" fill-opacity=".6">02</text>
+    <text class="sans" x="366" y="118" font-size="28" font-weight="700" fill="#0b0b0b">AI assistants</text>
+    <text class="sans" x="366" y="162" font-size="21" fill="#0b0b0b" fill-opacity=".8">Chatbots &amp; LLM apps</text>
+    <text class="sans" x="366" y="192" font-size="21" fill="#0b0b0b" fill-opacity=".8">(RAG, agents), 24/7.</text>
+
+    <!-- 03 -->
+    <text class="mono" x="699" y="48" font-size="14" letter-spacing="2" fill="#0b0b0b" fill-opacity=".5">03</text>
+    <text class="sans" x="699" y="118" font-size="28" font-weight="700" fill="#0b0b0b">Automation</text>
+    <text class="sans" x="699" y="162" font-size="21" fill="#0b0b0b" fill-opacity=".7">Workflows, APIs and</text>
+    <text class="sans" x="699" y="192" font-size="21" fill="#0b0b0b" fill-opacity=".7">cloud deployments.</text>
+  </g>
+</svg>
