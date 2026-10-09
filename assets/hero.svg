@@ -37,7 +37,6 @@
     <!-- copy -->
     <text class="t" x="500" y="168" text-anchor="middle" font-size="104" font-weight="700" letter-spacing="-3" fill="url(#name)">Hung</text>
     <text class="t" x="500" y="232" text-anchor="middle" font-size="36" font-weight="500" fill="#f5f5f7">Full-Stack &amp; AI Automation Developer.</text>
-    <circle class="dot" cx="355" cy="272" r="5" fill="#30d158"/>
-    <text class="t" x="500" y="279" text-anchor="middle" font-size="21" fill="#86868b" dx="10">Ho Chi Minh City, Vietnam<tspan dx="14" fill="#48484a">|</tspan><tspan dx="14">Open to freelance work</tspan></text>
+    <text class="t" x="500" y="279" text-anchor="middle" font-size="21" fill="#86868b">Ho Chi Minh City, Vietnam<tspan dx="14" fill="#48484a">|</tspan><tspan dx="14" fill="#30d158" class="dot">&#9679;</tspan><tspan dx="6">Open to freelance work</tspan></text>
   </g>
 </svg>

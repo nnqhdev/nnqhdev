@@ -16,12 +16,14 @@
   </defs>
   <style>
     .t { font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Segoe UI Variable Display', 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
-    .b1 { animation: b1 10s ease-out infinite; }
-    .b2 { animation: b2 10s ease-out infinite; }
-    .b3 { animation: b3 10s ease-out infinite; }
-    @keyframes b1 { 0% { opacity: 0; transform: translateY(12px); } 6%, 92% { opacity: 1; transform: none; } 100% { opacity: 0; } }
-    @keyframes b2 { 0%, 22% { opacity: 0; transform: translateY(12px); } 29%, 92% { opacity: 1; transform: none; } 100% { opacity: 0; } }
-    @keyframes b3 { 0%, 50% { opacity: 0; transform: translateY(12px); } 57%, 92% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    /* Default state is the full conversation (so it still reads without animation);
+       at the end of each loop it clears and re-builds message by message. */
+    .b1 { animation: b1 12s ease-out infinite; }
+    .b2 { animation: b2 12s ease-out infinite; }
+    .b3 { animation: b3 12s ease-out infinite; }
+    @keyframes b1 { 0%, 80% { opacity: 1; transform: none; } 83%, 86% { opacity: 0; transform: translateY(12px); } 91%, 100% { opacity: 1; transform: none; } }
+    @keyframes b2 { 0%, 80% { opacity: 1; transform: none; } 83%, 90% { opacity: 0; transform: translateY(12px); } 95%, 100% { opacity: 1; transform: none; } }
+    @keyframes b3 { 0%, 80% { opacity: 1; transform: none; } 83%, 95% { opacity: 0; transform: translateY(12px); } 99%, 100% { opacity: 1; transform: none; } }
     .dot { animation: bn 1.2s ease-in-out infinite; }
     @keyframes bn { 0%, 60%, 100% { transform: translateY(0); opacity: .5; } 30% { transform: translateY(-6px); opacity: 1; } }
   </style>
