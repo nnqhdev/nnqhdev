@@ -1,8 +1,7 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
+<img src="assets/hero.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
 
-<br>
 <br>
 
 <a href="https://github.com/nnqhdev"><img src="https://img.shields.io/badge/GITHUB-0b0b0b?style=for-the-badge" height="34" alt="GitHub"></a>
@@ -18,16 +17,6 @@ Turning ideas into practical, production-ready software.
 
 <sub>Bachelor of Engineering in Data Engineering</sub>
 
-<br>
-
-<img src="assets/build.svg" alt="What I build: web and mobile apps, AI assistants, automation" width="100%">
-
-<br>
-<br>
-
-<img src="assets/stack.svg" alt="Tech stack" width="100%">
-
-<br>
 <br>
 
 <picture>
