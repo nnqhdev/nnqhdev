@@ -1,23 +1,30 @@
-<div align="center">
+# Hi, I'm Hung
 
-<img src="assets/compact-hero.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
+**Full-Stack & AI Automation Developer** based in Ho Chi Minh City, Vietnam.
 
-<br>
+I build web apps, AI assistants and automation that help teams move faster.
+Open to freelance work.
 
-<a href="https://github.com/nnqhdev">GitHub&nbsp;›</a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/nnqhdev/">LinkedIn&nbsp;›</a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.youtube.com/@nnqhdev">YouTube&nbsp;›</a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.facebook.com/nnqhdev">Facebook&nbsp;›</a> &nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:hung264656@gmail.com">Email&nbsp;›</a>
+## What I do
 
-<br>
-<br>
+- **Web & mobile apps** – modern, scalable and production-ready
+- **AI assistants** – chatbots and multi-model LLM apps (RAG, agents) that run 24/7
+- **Automation** – workflows, APIs and cloud deployments
 
-<a href="https://github.com/nnqhdev/nnqhdev/blob/main/pages/web-mobile.md"><img src="assets/bar-web.svg" alt="Web & mobile apps - open page" width="100%"></a>
-<a href="https://github.com/nnqhdev/nnqhdev/blob/main/pages/ai-assistants.md"><img src="assets/bar-ai.svg" alt="AI assistants - open page" width="100%"></a>
-<a href="https://github.com/nnqhdev/nnqhdev/blob/main/pages/automation.md"><img src="assets/bar-auto.svg" alt="Automation - open page" width="100%"></a>
-<a href="https://github.com/nnqhdev/nnqhdev/blob/main/pages/stack.md"><img src="assets/bar-stack.svg" alt="The stack - open page" width="100%"></a>
+## Tech stack
 
-<sub>Bachelor of Engineering in Data Engineering</sub>
+| | |
+|---|---|
+| **Languages** | TypeScript, JavaScript, Python, PHP, Java |
+| **Frontend** | React, Next.js, Vue, React Native, Tailwind CSS |
+| **Backend** | Node.js, NestJS, Express, FastAPI, Laravel, Spring |
+| **Data & tools** | PostgreSQL, MySQL, Redis, GraphQL, Docker, Git, Linux |
+| **AI & automation** | OpenAI, Gemini, Claude, LangChain, n8n |
 
-</div>
+## Education
+
+Bachelor of Engineering in Data Engineering
+
+## Contact
+
+[GitHub](https://github.com/nnqhdev) · [LinkedIn](https://www.linkedin.com/in/nnqhdev/) · [YouTube](https://www.youtube.com/@nnqhdev) · [Facebook](https://www.facebook.com/nnqhdev) · [Email](mailto:hung264656@gmail.com)
