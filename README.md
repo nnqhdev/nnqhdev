@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
+<img src="assets/profile-hero.svg" alt="Hung - Full-Stack & AI Automation Developer" width="100%">
 
 <br>
 <br>
