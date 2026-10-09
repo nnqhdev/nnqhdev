@@ -17,7 +17,7 @@
 </div>
 
 <details>
-<summary><img src="assets/bar-web.svg" alt="Web & mobile apps - click to expand" width="96%"></summary>
+<summary><img src="https://raw.githubusercontent.com/nnqhdev/nnqhdev/redesign/compact/assets/bar-web.svg" alt="Web & mobile apps - click to expand" width="96%"></summary>
 
 <p align="center"><img src="assets/compact-web.svg" alt="Web and mobile app illustration" width="46%"></p>
 
@@ -29,7 +29,7 @@ Modern, scalable web and mobile apps, built for production.<br>
 </details>
 
 <details>
-<summary><img src="assets/bar-ai.svg" alt="AI assistants - click to expand" width="96%"></summary>
+<summary><img src="https://raw.githubusercontent.com/nnqhdev/nnqhdev/redesign/compact/assets/bar-ai.svg" alt="AI assistants - click to expand" width="96%"></summary>
 
 <p align="center"><img src="assets/compact-ai.svg" alt="AI assistant chat illustration" width="46%"></p>
 
@@ -41,7 +41,7 @@ Chatbots and multi-model LLM assistants (RAG, agents) that work around the clock
 </details>
 
 <details>
-<summary><img src="assets/bar-auto.svg" alt="Automation - click to expand" width="96%"></summary>
+<summary><img src="https://raw.githubusercontent.com/nnqhdev/nnqhdev/redesign/compact/assets/bar-auto.svg" alt="Automation - click to expand" width="96%"></summary>
 
 <p align="center"><img src="assets/compact-auto.svg" alt="Automation flow: trigger, LLM, API, deploy" width="96%"></p>
 
@@ -53,7 +53,7 @@ Workflows, APIs and cloud deployments that help teams operate faster.<br>
 </details>
 
 <details>
-<summary><img src="assets/bar-stack.svg" alt="The stack - click to expand" width="96%"></summary>
+<summary><img src="https://raw.githubusercontent.com/nnqhdev/nnqhdev/redesign/compact/assets/bar-stack.svg" alt="The stack - click to expand" width="96%"></summary>
 
 <p align="center"><img src="assets/compact-stack.svg" alt="Tech stack" width="96%"></p>
 
