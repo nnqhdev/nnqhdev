@@ -150,14 +150,6 @@
 
 
 
-<img src="https://github-profile-trophy.vercel.app/?username=nnqhdev&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" />
-
-
-
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=nnqhdev&bg_color=0D1117&color=A855F7&line=6366F1&point=C9D1D9&area=true&hide_border=true" />
-
-
-
 </div>
 
 
