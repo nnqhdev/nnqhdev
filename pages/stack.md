@@ -6,15 +6,11 @@
 
 The tools I build with.
 
-</div>
-
 **Languages** &nbsp; TypeScript · JavaScript · Python · PHP · Java<br>
 **Frontend** &nbsp; React · Next.js · Vue · React Native · Tailwind CSS<br>
 **Backend** &nbsp; Node.js · NestJS · Express · FastAPI · Laravel · Spring<br>
 **Data & tools** &nbsp; PostgreSQL · MySQL · Redis · GraphQL · Docker · Git · Linux<br>
 **AI & automation** &nbsp; OpenAI · Gemini · Claude · LangChain · n8n
-
-<div align="center">
 
 <br>
 
