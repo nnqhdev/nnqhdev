@@ -13,13 +13,11 @@ Open to freelance work.
 
 ## Tech stack
 
-| | |
-|---|---|
-| **Languages** | TypeScript, JavaScript, Python, PHP, Java |
-| **Frontend** | React, Next.js, Vue, React Native, Tailwind CSS |
-| **Backend** | Node.js, NestJS, Express, FastAPI, Laravel, Spring |
-| **Data & tools** | PostgreSQL, MySQL, Redis, GraphQL, Docker, Git, Linux |
-| **AI & automation** | OpenAI, Gemini, Claude, LangChain, n8n |
+- **Languages:** TypeScript, JavaScript, Python, PHP, Java
+- **Frontend:** React, Next.js, Vue, React Native, Tailwind CSS
+- **Backend:** Node.js, NestJS, Express, FastAPI, Laravel, Spring
+- **Data & tools:** PostgreSQL, MySQL, Redis, GraphQL, Docker, Git, Linux
+- **AI & automation:** OpenAI, Gemini, Claude, LangChain, n8n
 
 ## Education
 
